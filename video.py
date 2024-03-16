@@ -54,4 +54,7 @@ replace_button.pack()
 success_label = Label(root, text="", font=("Arial", 20))
 success_label.pack()
 
+diego_label = Label(root, text="DV TECHNOLOGY", font=("Arial", 16))
+diego_label.pack()
+
 root.mainloop()
