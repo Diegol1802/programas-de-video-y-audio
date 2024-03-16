@@ -39,5 +39,8 @@ root.geometry(f"{screen_width}x{screen_height}")
 button = tk.Button(root, text="Seleccionar video y convertir audio", command=extract_audio_and_convert,font=("Arial", 40))
 button.pack(pady=20)
 
+diego_label = Label(root, text="DV TECHNOLOGY", font=("Arial", 16))
+diego_label.pack()
+
 # Ejecutar el bucle principal de la interfaz gráfica
 root.mainloop()
