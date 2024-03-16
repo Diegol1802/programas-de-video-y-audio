@@ -36,10 +36,10 @@ screen_height = root.winfo_screenheight()
 root.geometry(f"{screen_width}x{screen_height}")
 
 # Botón para iniciar el proceso de extracción y conversión
-button = tk.Button(root, text="Seleccionar video y convertir audio", command=extract_audio_and_convert,font=("Arial", 40))
+button = tk.Button(root, text="Seleccionar video y convertir a Wav", command=extract_audio_and_convert,font=("Arial", 40))
 button.pack(pady=20)
 
-diego_label = Label(root, text="DV TECHNOLOGY", font=("Arial", 16))
+diego_label = tk.Label(root, text="DV TECHNOLOGY", font=("Arial", 16))
 diego_label.pack()
 
 # Ejecutar el bucle principal de la interfaz gráfica
